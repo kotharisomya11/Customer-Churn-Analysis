@@ -1,8 +1,4 @@
--- =====================================================================
--- Customer Churn Analysis — SQL Queries
--- Author: Harsh Pandey
--- Table assumed: customer_churn (loaded from data/customer_churn.csv)
--- =====================================================================
+
 
 -- 1. Overall churn rate
 SELECT
