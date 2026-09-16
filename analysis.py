@@ -1,15 +1,4 @@
-"""
-Customer Churn Analysis
-Author: Harsh Pandey
 
-Goal:
-    Identify which customer segments (contract type, tenure, charges) are
-    most at risk of churning, and surface retention recommendations.
-
-Run:
-    pip install pandas matplotlib
-    python analysis.py
-"""
 
 import pandas as pd
 import matplotlib.pyplot as plt
