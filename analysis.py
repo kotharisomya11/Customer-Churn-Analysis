@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 DATA_PATH = "data/customer_churn.csv"
 
 
-def load_data(path: str = DATA_PATH) -> pd.DataFrame:
+def load_data(path: str = data/customer_churn.csv) -> pd.DataFrame:
     df = pd.read_csv("C:\Users\hp\Documents\Customer-churn-analysis")
     df["TenureGroup"] = pd.cut(
         df["Tenure"], bins=[0, 12, 24, 36, 48, 72],
